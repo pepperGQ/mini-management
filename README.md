@@ -67,3 +67,11 @@ npm i -D @types/node
 
 这样输入@/后就有路径资源提示了
 
+##antD 初步引入
+
+安装
+npm install antd --save
+
+安装图标所需要的模块
+npm install --save @ant-design/icons
+
