@@ -11,13 +11,24 @@ import 'reset-css'
 import '@/assets/styles/global.scss'
 
 // 组件样式
-// import App from './App.tsx'
-import Router from './router'
+import App from './App.tsx'
+
+// 路由组件写法
+// import Router from './router/index copy'
+
+import { BrowserRouter } from 'react-router-dom'
+
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Router/>
+    {/* 一、路由组件写法 */}
+    {/* <Router/> */}
+
+    {/* 二、路由配置表写法 */}
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    
   </React.StrictMode>,
 )
