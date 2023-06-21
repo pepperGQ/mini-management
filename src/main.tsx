@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 // 正确的样式引入样式
 // 初始化样式，一般放在最前，因为APP中会有自定义的样式
 import 'reset-css'
-// UI框架样式
+// UI框架样式 antd 4版本还需要引入样式，现在使用的是5版本 不需要引入样式
 
 
 // 全局样式

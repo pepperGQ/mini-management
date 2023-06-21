@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Comp from './components/Comp1'
-import Comp2 from './components/Comp2'
+import { Button } from 'antd';
+import{UpCircleOutlined} from '@ant-design/icons'
+
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
   return (
     <>
       <div>顶级组件
-        <Comp/>
-        <Comp2/>
+      <Button type="primary">Primary Button</Button>
+      <UpCircleOutlined style={{fontSize: '50px',color:'green'}}/>
       </div>
     </>
   )
