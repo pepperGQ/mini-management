@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Button } from 'antd';
-import{UpCircleOutlined} from '@ant-design/icons'
+
+import {Outlet,Link} from 'react-router-dom'
 
 
 
@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-      <div>顶级组件
-      <Button type="primary">Primary Button</Button>
-      <UpCircleOutlined style={{fontSize: '50px',color:'green'}}/>
+      <div>
+        <Link to='/home'>Home</Link>
+        <Link  to='/about'>About</Link>
+        {/* 路由占位组件 */}
+        <Outlet></Outlet>
       </div>
     </>
   )

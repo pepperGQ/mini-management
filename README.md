@@ -1,4 +1,4 @@
-##项目笔记
+#项目笔记
 ##创建项目
 npm init vite
 选择 React + ts
@@ -75,3 +75,5 @@ npm install antd --save
 安装图标所需要的模块
 npm install --save @ant-design/icons
 
+##React路由
+ ###旧版本路由配置方式
