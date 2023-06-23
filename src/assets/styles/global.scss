@@ -1,13 +1,21 @@
-$color:#fff;
+$color: #fff;
 
-body{
+body {
     background-color: $color;
     // 禁用文字选中
     user-select: none;
 
 }
 
-img{
+img {
     // 禁止图片拖动
     -webkit-user-drag: none;
+}
+
+
+// 首页Logo样式
+.demo-logo-vertical {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
 }
